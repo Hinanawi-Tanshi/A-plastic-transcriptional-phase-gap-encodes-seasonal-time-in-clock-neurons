@@ -1,0 +1,47 @@
+{
+  "data_root": "../example_data",
+  "results_root": "../results",
+  "algorithm_config": "analysis.yaml",
+  "input_paths": ["2026_10_13_Bodipy_6586_DbtS_DbtL"],
+  "existing_result_dirs": [],
+  "recursive": false,
+  "use_manual_cb_roi": true,
+  "exclude_optic_lobes": true,
+  "export_final_cb_mask": false,
+  "workers": 2,
+  "genotype_labels": {
+    "6586": "6586",
+    "17733x6586": "17733_DbtS",
+    "17734x6586": "17734_DbtL"
+  },
+  "group_order": [
+    "6586 | L12D12", "17733_DbtS | L12D12",
+    "17734_DbtL | L9D15", "6586 | L9D15"
+  ],
+  "include_unlisted_groups": false,
+  "qc": {"regex": null, "save_images": true, "save_3d_marker": true, "slices": 6},
+  "report": {
+    "export_objects": false,
+    "export_planes": true,
+    "export_detections": false,
+    "depth_bins": 51,
+    "object_histogram_bins": 35,
+    "object_upper_quantile": 0.995,
+    "include_intensity_diagnostics": true,
+    "include_size_diagnostics": true,
+    "size_scatter_max_per_brain": 200,
+    "statistical_test_method": "pairwise_ttest",
+    "ttest_equal_var": false,
+    "ttest_p_adjust_method": "none",
+    "posthoc_comparisons": [
+      ["6586 | L12D12", "6586 | L9D15"],
+      ["6586 | L12D12", "17733_DbtS | L12D12"],
+      ["6586 | L9D15", "17733_DbtS | L12D12"],
+      ["6586 | L12D12", "17734_DbtL | L9D15"],
+      ["6586 | L9D15", "17734_DbtL | L9D15"]
+    ],
+    "annotate_statistics": true,
+    "show_non_significant": true,
+    "dpi": 180
+  }
+}

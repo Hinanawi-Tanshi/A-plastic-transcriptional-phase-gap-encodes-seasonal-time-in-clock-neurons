@@ -1,0 +1,14 @@
+# Validated with Python 3.11.9
+numpy==1.24.3
+scipy==1.10.1
+scikit-image==0.23.2
+pandas==2.2.2
+matplotlib==3.8.4
+tifffile==2022.10.10
+h5py==3.8.0
+PyYAML==6.0.1
+roifile==2024.5.24
+Pillow==10.4.0
+statsmodels==0.14.6
+imaris-ims-file-reader==0.1.8
+ipykernel==6.29.5

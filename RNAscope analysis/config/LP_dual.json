@@ -1,0 +1,26 @@
+{
+  "experiment": "LP_dual",
+  "mode": "dual",
+  "data_root": "../example_data",
+  "results_root": "../results",
+  "datasets": [
+    ],
+  "mask_suffixes": ["_CH3_mask", "_CH2_mask"],
+  "detection": {
+    "z_radius_nm": 300,
+    "xy_radius_nm": 300,
+    "voxel_size_nm": [500, 96, 96],
+    "alpha": 0.7,
+    "beta": 1.0,
+    "gamma": 15,
+    "decompose": true,
+    "cluster": false,
+    "verbose": true
+  },
+  "threshold_ch0": 100,
+  "threshold_ch1": 30,
+  "exclusions": [],
+  "random_seed": null,
+  "save_spots": true,
+  "make_plots": true
+}

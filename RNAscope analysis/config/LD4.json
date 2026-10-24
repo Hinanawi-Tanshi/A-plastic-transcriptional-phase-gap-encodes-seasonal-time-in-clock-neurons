@@ -1,0 +1,25 @@
+{
+  "experiment": "LD4",
+  "mode": "single",
+  "data_root": "../example_data",
+  "results_root": "../results",
+  "datasets": [
+    ],
+  "mask_suffixes": ["_CH1_mask"],
+  "detection": {
+    "z_radius_nm": 300,
+    "xy_radius_nm": 300,
+    "threshold": 100,
+    "voxel_size_nm": [500, 96, 96],
+    "alpha": 0.7,
+    "beta": 1.0,
+    "gamma": 15,
+    "decompose": true,
+    "cluster": false,
+    "verbose": true
+  },
+  "exclusions": [],
+  "random_seed": null,
+  "save_spots": true,
+  "make_plots": true
+}
