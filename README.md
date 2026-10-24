@@ -17,7 +17,7 @@ The MATLAB figure analyses include their input spreadsheets. The image-analysis 
 
 Each module keeps its shared functions in its own `script/` directory, except `Cell_tracking`, which provides replacement files for an upstream package. Keep these directory structures when moving the repository. Folder and script names follow the current manuscript figure numbering.
 
-In the M/E analyses, **M** denotes sLNv cells and **E** denotes the 5th sLNv. Fig1H analyzes lLNv cells. Time units are specified in the input headers and configuration; recording timestamps are generally stored in hours, while kernel windows are configured in minutes.
+In the M/E analyses, **M** denotes sLNv cells and **E** denotes the 5th LN. Fig1H analyzes lLNv cells. Time units are specified in the input headers and configuration; recording timestamps are generally stored in hours, while kernel windows are configured in minutes.
 
 ## Software requirements
 
