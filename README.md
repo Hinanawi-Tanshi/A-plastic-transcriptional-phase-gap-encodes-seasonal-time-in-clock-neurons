@@ -1,4 +1,4 @@
-# A timing gap in gene activity encodes seasonal time in clock neurons
+# A phase gap between transcriptional peaks of clock neurons encodes seasonal time
 
 Analysis code accompanying the study, covering bootstrap statistics, kernel-based activity traces, lipid-droplet quantification, RNAscope quantification, and live-imaging cell tracking and MS2 signal processing.
 
